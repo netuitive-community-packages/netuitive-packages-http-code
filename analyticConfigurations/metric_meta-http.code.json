@@ -1,0 +1,24 @@
+{
+  "analyticConfiguration": {
+    "metrics": [
+      {
+        "match": "http\\..*\\.response_code",
+        "properties": {
+          "statistic": "max"
+        }
+      },
+      {
+        "match": "http\\..*\\.response_code\\..*",
+        "properties": {
+          "statistic": "cnt"
+        }
+      }
+    ],
+    "name": "http-code",
+    "scope": {
+      "elementType": "SERVER",
+      "metricMatches": "^http\\..*\\.response_code.*"
+    },
+    "type": "METRIC_META"
+  }
+}

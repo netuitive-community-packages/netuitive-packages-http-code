@@ -1,0 +1,27 @@
+{
+  "id" : "netuitive.packages.http.code",
+  "version" : "1.0.0",
+  "manifest" : {
+    "name" : "Netuitive Packages HTTP Code",
+    "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor metrics collected from the HTTP Code collector in the Netuitive Agent.",
+    "author" : {
+      "name" : "Netuitive Research",
+      "email" : "research@netuitive.com"
+    },
+    "distro" : {
+      "logo" : "http://assets.app.netuitive.com/pkg/logo/netuitive/banner_logo.png",
+      "download" : "https://github.com/netuitive-community-packages/netuitive-packages-http-code/archive/master.zip"
+    },
+    "compatibility" : [ "INFRASTRUCTURE:Http-Code" ],
+    "tags" : [ ],
+    "checksum" : null
+  },
+  "analyticConfigurations" : [ {
+    "data" : {
+      "file" : "analyticConfigurations/metric_meta-http.code.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  } ],
+  "dashboards" : [ ]
+}
