@@ -6,6 +6,6 @@ For detailed information on this package, please refer to the [online documentat
 
 ### Version next
 
-### v0.0.1
+### v1.0.0
 
-* Initial production version.
+* Initial production release of the package for monitoring the HTTP Code Collector metrics
