@@ -6,4 +6,6 @@ For detailed information on this package, please refer to the [online documentat
 
 ### Version next
 
+### v0.0.1
+
 * Initial production version.
