@@ -12,6 +12,7 @@
       "logo" : "http://assets.app.netuitive.com/pkg/logo/netuitive/banner_logo.png",
       "download" : "https://github.com/netuitive-community-packages/netuitive-packages-http-code/archive/master.zip"
     },
+    "policies" : [],
     "compatibility" : [ "INFRASTRUCTURE:Http-Code" ],
     "tags" : [ ],
     "checksum" : null
@@ -23,5 +24,5 @@
       "content" : null
     }
   } ],
-  "dashboards" : [ ]
+  "dashboards" : []
 }
